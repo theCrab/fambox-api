@@ -1,0 +1,37 @@
+{
+  "name": "fambox-api",
+  "version": "1.0.0",
+  "description": "The api server for FamBox App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theCrab/fambox.git"
+  },
+  "keywords": [
+    "Uber",
+    "FamBox",
+    "Taxi",
+    "Angular",
+    "Express",
+    "Bulma CSS"
+  ],
+  "author": "The Crab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theCrab/fambox/issues"
+  },
+  "homepage": "https://github.com/theCrab/fambox#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "node-geocoder": "^3.19.0",
+    "node-uber": "^1.0.0",
+    "ramda": "^0.24.1"
+  }
+}
