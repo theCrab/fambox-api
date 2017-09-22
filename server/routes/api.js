@@ -29,10 +29,8 @@ router.get('/estimate', (req, res) => {
       req.query.end_latitude,
       req.query.end_longitude
     )
-    .then( r => {
-      res.json(r)
-    })
-    .error( err => console.error(err) )
+    .then(prices => res.json(prices))
+    .error(err => console.error(err.message))
 })
 
 router.get('/me', (req, res, next) => {
